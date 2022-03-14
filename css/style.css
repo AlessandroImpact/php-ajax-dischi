@@ -1,0 +1,40 @@
+/*REGOLE GENERALI*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+header{
+    padding: 15px 25px;
+    background-color: #2e3a46;
+}
+
+header img{
+    
+    height: 50px;
+    object-fit: cover;
+}
+
+/* MAIN */
+
+main{
+    background-color: #1e2d3b;
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: fixed;
+    top: 70px;
+    left: 0;
+    overflow: auto;
+}
+
+.my_card{
+    background-color: #2e3a46;
+}
+
+.my_desc {
+    font-size: 1rem;
+}
